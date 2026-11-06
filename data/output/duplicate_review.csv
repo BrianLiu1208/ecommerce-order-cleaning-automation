@@ -1,0 +1,5 @@
+﻿source_file,source_row,channel,order_id,reason,raw_record_json
+orders_marketplace.csv,27,電商平台,MKT-1002,exact_duplicate,"{""Order_ID"": ""MKT-1002"", ""Purchased_At"": ""10/11/2026"", ""Item"": ""Insulated Bottle"", ""Quantity"": ""2"", ""Price"": ""490.00"", ""Buyer_ID"": ""C023"", ""Order_Status"": ""paid""}"
+orders_pos.csv,4,實體門市,POS-1003,conflicting_duplicate,"{""交易編號"": ""POS-1003"", ""交易時間"": ""2026年10月21日"", ""品項"": ""A5 筆記本"", ""件數"": ""3"", ""售價"": ""129"", ""會員編號"": ""C004"", ""交易狀態"": ""已完成""}"
+orders_pos.csv,27,實體門市,POS-1003,conflicting_duplicate,"{""交易編號"": ""POS-1003"", ""交易時間"": ""2026年10月21日"", ""品項"": ""A5 筆記本"", ""件數"": ""3"", ""售價"": ""229"", ""會員編號"": ""C004"", ""交易狀態"": ""已完成""}"
+orders_shop.csv,27,官網,WEB-1001,exact_duplicate,"{""訂單編號"": ""WEB-1001"", ""下單日期"": ""2026-10-01"", ""商品"": ""無線滑鼠"", ""數量"": ""1"", ""單價"": ""699"", ""客戶ID"": ""C001"", ""狀態"": ""取消""}"

@@ -1,0 +1,11 @@
+﻿metric,value,definition
+raw_rows,87,三份原始檔資料列數（不含表頭）
+accepted_rows,77,通過驗證且鍵值唯一的保留資料列數
+rejected_rows,6,必要欄位缺失或格式無法解析而隔離的資料列數
+exact_duplicate_rows,2,完全相同的重複訂單中移除的額外列數
+conflicting_duplicate_rows,2,相同來源＋訂單號但欄位內容衝突，整組隔離的資料列數
+kept_with_warnings,3,保留但具有非必要欄位缺漏或無法對應品名的資料列數
+completed_orders,64,已完成的訂單列數
+cancelled_orders,4,取消的訂單列數
+refunded_orders,9,退款的訂單列數
+completed_sales_twd,117585.00,只計已完成訂單的商品金額（數量×單價），不含運費/折扣/稅

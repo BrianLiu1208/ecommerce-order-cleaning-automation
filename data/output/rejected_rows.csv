@@ -1,0 +1,7 @@
+﻿source_file,source_row,channel,order_id,reason,raw_record_json
+orders_marketplace.csv,28,電商平台,MKT-X1,invalid_date,"{""Order_ID"": ""MKT-X1"", ""Purchased_At"": ""2026-33-99"", ""Item"": ""Notebook"", ""Quantity"": ""2"", ""Price"": ""129"", ""Buyer_ID"": ""C113"", ""Order_Status"": ""paid""}"
+orders_marketplace.csv,29,電商平台,MKT-X2,invalid_unit_price,"{""Order_ID"": ""MKT-X2"", ""Purchased_At"": ""10/15/2026"", ""Item"": ""USB-C Hub"", ""Quantity"": ""1"", ""Price"": ""unknown"", ""Buyer_ID"": ""C114"", ""Order_Status"": ""paid""}"
+orders_pos.csv,28,實體門市,POS-X1,invalid_quantity,"{""交易編號"": ""POS-X1"", ""交易時間"": ""2026.10.05"", ""品項"": ""A5 筆記本"", ""件數"": ""-2"", ""售價"": ""129"", ""會員編號"": ""C115"", ""交易狀態"": ""已完成""}"
+orders_pos.csv,29,實體門市,POS-X2,unknown_status,"{""交易編號"": ""POS-X2"", ""交易時間"": ""2026.10.15"", ""品項"": ""無線滑鼠"", ""件數"": ""1"", ""售價"": ""699"", ""會員編號"": ""C116"", ""交易狀態"": ""待處理""}"
+orders_shop.csv,28,官網,,missing_order_id,"{""訂單編號"": "" "", ""下單日期"": ""2026/10/11"", ""商品"": ""無線滑鼠"", ""數量"": ""1"", ""單價"": ""699"", ""客戶ID"": ""C110"", ""狀態"": ""完成""}"
+orders_shop.csv,29,官網,WEB-X1,invalid_unit_price,"{""訂單編號"": ""WEB-X1"", ""下單日期"": ""2026/10/12"", ""商品"": ""機械鍵盤"", ""數量"": ""1"", ""單價"": """", ""客戶ID"": ""C111"", ""狀態"": ""完成""}"
